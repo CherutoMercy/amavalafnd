@@ -1,0 +1,25 @@
+{
+  "name": "amavara",
+  "version": "1.0.0",
+  "description": "photography/fashion site",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CherutoMercy/amavara.git"
+  },
+  "author": "mercy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CherutoMercy/amavara/issues"
+  },
+  "homepage": "https://github.com/CherutoMercy/amavara#readme",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "ejs-mate": "^2.3.0",
+    "express": "^4.14.0"
+  }
+}
