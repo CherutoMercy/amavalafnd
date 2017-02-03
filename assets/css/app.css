@@ -21,7 +21,7 @@ body{
 }
 
 .top-bar {
-  background: #000;
+  background: #cf4646;
   height: 70px;
   line-height: 60px;
   margin-bottom: 50px;
@@ -37,11 +37,11 @@ body{
       font-size: 2rem;
       font-family: 'LatoWebBold', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
       .top-bar li.name h1 a {
-      	color: #cf4646;
+      	color: #fff;
         -webkit-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out; }
         .top-bar li.name h1 a:hover {
-          color: #fff; }
+          color: #000000; }
   .top-bar li.toggle-topbar span {
     font-size: 1.4em; }
   @media only screen and (max-width: 640px) {
@@ -69,7 +69,7 @@ body{
         padding: 0; }
         .top-bar-section ul li:not(.has-form) a:not(.button):hover {
           background: transparent;
-          color: #cf4646; }
+          color: #000000; }
           .top-bar-section ul li:not(.has-form) a:not(.button):hover:after {
             opacity: 1;
             -webkit-transform: translateY(-2px);

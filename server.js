@@ -23,7 +23,7 @@ app.use(flash());
 var routes = require('./routes/index.js');
 app.use(routes);
 
-app.set('port', (process.env.PORT || 8000));
+app.set('port', (process.env.PORT || 8080));
 app.listen(app.get('port'), function() {
   console.log('Hurray am running on port ' + app.get('port'))
 });
