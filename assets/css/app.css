@@ -26,10 +26,10 @@ body{
   position: relative; }
 .top-bar {
   background: #cf4646;
-  height: 70px;
+  height: 60px;
   line-height: 60px;
   margin-bottom: 50px;
-  padding-top: 10px;
+  padding-bottom: 20px;
   padding-left: 40px;
   padding-right: 40px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -107,19 +107,7 @@ body{
     @media only screen and (max-width: 640px) {
       .top-bar-section ul li {
         padding: 0; } }
-.top-barr {
-  background: #fff;
-  height: 40px;
-  line-height: 60px;
-  margin-bottom: 30px;
-  padding-top: 80px;
-  padding-left: 40px;
-  padding-right: 40px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
-.top-barr a {
-    background: transparent;
-    padding: 1px 15px 5px 0px; }
+
 .container{
 	margin-top: 80px;
   margin-bottom: 0px;
@@ -130,6 +118,13 @@ body{
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+#content: {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 #about{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -146,6 +141,10 @@ body{
   margin-bottom: 50px;
 }
 
+.sidebar{
+  position: fixed;
+  height: 100%;
+}
  /*--------------------------------------------------------
  * footer section styling 
  *--------------------------------------------------------*/
