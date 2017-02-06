@@ -7,13 +7,13 @@
     <style>
         @import 'https://fonts.googleapis.com/css?family=Pacifico';
         @import 'https://fonts.googleapis.com/css?family=Baloo+Bhai';
-    </style> 
+    </style>
   <link rel="stylesheet" href="/bower_components/foundation/css/normalize.min.css" media="all" />
     <!-- load fontawesome -->
   <link rel="stylesheet" href="/bower_components/lato/css/lato.css" media="all" />
   <link rel="stylesheet" href="/bower_components/simple-line-icons/css/simple-line-icons.css" media="all" />
   <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css" media="all" />
-    <link rel="stylesheet" href="/bower_components/foundation/css/foundation.min.css" media="all" /> 
+    <link rel="stylesheet" href="/bower_components/foundation/css/foundation.min.css" media="all" />
     <script src="/bower_components/foundation/js/vendor/modernizr.js"></script>
     <link rel="stylesheet" href="/css/app.css" media="all" />
 
@@ -22,7 +22,7 @@
         <ul class="title-area">
           <li class="name">
              <h1><a href="/"><b><i>amavala</i></b></a></h1>
-             
+
           </li>
           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
           <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -31,8 +31,20 @@
           <!-- Right Nav Section -->
           <ul class="right">
             <li><input type="text" placeholder="search" id="search" name="search"/></li>
-            <li><a class="page-scroll" href="#photo">Styles</a></li>
-            <li><a class="page-scroll" href="#photo">Events</a></li>
+            <li class="has-dropdown">
+              <a class="page-scroll" href="#photo">Styles</a>
+              <ul class="dropdown">
+                <li><a href="#">First style</a></li>
+                <li ><a href="#">Second style</a></li>
+              </ul>
+            </li>
+            <li class="has-dropdown">
+              <a class="page-scroll" href="#photo">Events</a>
+              <ul class="dropdown">
+                <li><a href="#">First event</a></li>
+                <li ><a href="#">Second event</a></li>
+              </ul>
+            </li>
             <li><a href="/profile">My Profile</a></li>
           </ul>
           <!-- Left Nav Section -->
@@ -46,7 +58,7 @@
 <div class="container">
 
 <section id="content">
-<div class="content">  
+<div class="content">
 <div class="row">
 <div class=" sidebar large-3 columns">
   <p><a href="#newposts"><i>New Posts</i></a></p>
@@ -111,7 +123,7 @@
                         </div>
                       </div>
                       </div>
-                
+
                 <div class="callout primary">
                     <div id="small_posts_body" class="row small_posts_list">
                         <div class="small-12 columns">
@@ -148,6 +160,10 @@
 </section>
 
 </div>
+<script src="bower_components/foundation/js/vendor/jquery.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script>
+   $(document).foundation();
+</script>
 </body>
 </html>
-      
